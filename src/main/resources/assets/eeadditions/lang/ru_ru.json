@@ -1,0 +1,6 @@
+{
+  "itemGroup.eeadditions": "Create: Electro Energetics Additions",
+  "block.eeadditions.electric_furnace": "Электропечь",
+  "gui.eeadditions.electric_furnace.powered": "Электричество подключено",
+  "gui.eeadditions.electric_furnace.unpowered": "Электричество отключено"
+}
