@@ -1,6 +1,6 @@
 # Create: Electro Energetics Additions
 
-> [!ATTENTION]
+> [!CAUTION]
 > This mod is heavy WIP (Work In Progress) and is not ready for general use.
 
 An addon for Create: Electro Energetics that adds some useful stuff
