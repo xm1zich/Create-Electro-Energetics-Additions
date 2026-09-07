@@ -13,3 +13,4 @@ An addon for Create: Electro Energetics that adds some useful stuff
 - NPN Transistor
 - Compact DC generator
 - Compact AC generator
+- DC-AC Inverter
