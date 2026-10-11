@@ -37,6 +37,7 @@ public class CEEACreativeTab {
                     .icon(CEEABlocks.ELECTRIC_FURNACE::asStack)
                     .displayItems(((parameters, output) -> {
                         output.accept(CEEABlocks.ELECTRIC_FURNACE.asStack());
+                        output.accept(CEEABlocks.COMPACT_ROTOR.asStack());
                     }))
                     .build());
 

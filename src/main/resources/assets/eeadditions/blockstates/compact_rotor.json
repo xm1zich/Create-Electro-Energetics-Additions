@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "eeadditions:block/compact_rotor_vertical",
+      "x": 180
+    },
+    "facing=up": {
+      "model": "eeadditions:block/compact_rotor_vertical"
+    },
+    "facing=east": {
+      "model": "eeadditions:block/compact_rotor",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "eeadditions:block/compact_rotor",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "eeadditions:block/compact_rotor"
+    },
+    "facing=west": {
+      "model": "eeadditions:block/compact_rotor",
+      "y": 90
+    }
+  }
+}

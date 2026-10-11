@@ -1,6 +1,7 @@
 package com.xm1zich.eeadditions;
 
 import com.xm1zich.eeadditions.content.electric_furnace.ElectricFurnaceBlock;
+import com.xm1zich.eeadditions.content.compact_rotor.CompactRotorBlock;
 import com.george_vi.electroenergetics.CEETags;
 import com.george_vi.electroenergetics.client.ElectricStatsTooltipModifier;
 import com.george_vi.electroenergetics.config.CEEConfigs;
@@ -106,6 +107,16 @@ public class CEEABlocks {
             REGISTRATE.block("electric_furnace", ElectricFurnaceBlock::new)
                     .initialProperties(SharedProperties::stone)
                     .properties(p -> p.mapColor(MapColor.METAL))
+                    .transform(pickaxeOnly())
+                    .item()
+                    .build()
+                    .register();
+
+    public static final BlockEntry<CompactRotorBlock> COMPACT_ROTOR =
+            REGISTRATE.block("compact_rotor", CompactRotorBlock::new)
+                    .initialProperties(SharedProperties::stone)
+                    .properties(p -> p.mapColor(MapColor.COLOR_ORANGE))
+                    .properties(BlockBehaviour.Properties::noOcclusion)
                     .transform(pickaxeOnly())
                     .item()
                     .build()

@@ -135,7 +135,7 @@ dependencies {
     }
 
     // Electro Energetics
-    implementation "maven.modrinth:qYJdIoAx:11zlqCk5"
+    implementation "maven.modrinth:qYJdIoAx:hVjeqOy6"
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {

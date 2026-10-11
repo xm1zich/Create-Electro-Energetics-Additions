@@ -8,6 +8,7 @@ public class CServer extends ConfigBase {
 
     public final CResistances resistanceValues = nested(1, CResistances::new, "Resistance Values");
     public final CVoltages voltageValues = nested(1, CVoltages::new, "Voltage Values");
+    public final CRotor rotorValues = nested(1, CRotor::new, "Compact Rotor Values");
 
     @Override
     public @NotNull String getName() {
