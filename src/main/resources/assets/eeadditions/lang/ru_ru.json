@@ -3,5 +3,5 @@
   "block.eeadditions.electric_furnace": "Электропечь",
   "gui.eeadditions.electric_furnace.powered": "Электричество подключено",
   "gui.eeadditions.electric_furnace.unpowered": "Электричество отключено",
-  "block.eeadditions.compact_rotor": "Компактный ротор"
+  "block.eeadditions.compact_rotor": "Компактный генератор"
 }
